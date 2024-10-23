@@ -1,6 +1,7 @@
 header nav {
  display: flex;
  justify-content: center;
+ background-color: #ECECEC;
 }
 
 header nav ul {
@@ -10,4 +11,13 @@ header nav ul {
 
 header nav ul li {
     margin: 0 2rem;
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 2rem;
 }

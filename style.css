@@ -26,3 +26,14 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+span {
+    color: #767676;
+    font-size: .875rem;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.post-date {
+    margin-right: 2rem;
+}

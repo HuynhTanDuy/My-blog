@@ -37,3 +37,22 @@ span {
 .post-date {
     margin-right: 2rem;
 }
+
+/* main post styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    text-wrap: wrap;
+}
+
+#right-avatar {
+    width: 30%;
+    height: auto;
+}
+
+.title h1 {
+    text-align: center;
+}

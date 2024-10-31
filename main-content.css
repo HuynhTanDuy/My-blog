@@ -4,38 +4,23 @@
     /* align-items: center; */
     grid-template-columns: 60% 40%;
     gap: 20px;
+    margin-left: 20rem;
 }
 
 .left-post {
     grid-column: 1/2;
-    /* grid-row: ; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+.main-article {
+    width: 100%;
+    grid-column: 1/-1;
+}
+
 
 .right-post {
     grid-column: 2/-1;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-p {
-    text-wrap: wrap;
-}
-
-#right-avatar {
-    width: 30%;
-    height: auto;
-}
-
-.title {
-    text-align: center;
-}
-
-.title h1 {
-    text-align: center;
 }
 
 .post-content {
@@ -49,9 +34,11 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20rem;
+    padding: 1rem;
 }
 
 .left-post {
-margin-right: auto;
+ margin-right: auto;
 }
+
+

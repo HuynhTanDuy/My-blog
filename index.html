@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main-content.css">
+    <link rel="stylesheet" href="right-menu.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Duy Huynh - Blog</title>
 </head>
 
@@ -67,8 +69,8 @@
                             vitae, vestibulum augue.
                         </p>
                     </div>
-                    <div>
-                        <p>READ MORE</p>
+                    <div class="read-more">
+                        <a><p>READ MORE</p></a>
                     </div>
                 </article>
                 <article class="article">
@@ -104,8 +106,8 @@
                             vitae, vestibulum augue.
                         </p>
                     </div>
-                    <div>
-                        <p>READ MORE</p>
+                    <div class="read-more">
+                        <a><p>READ MORE</p></a>
                     </div>
                 </article>
                 <article class="article">
@@ -141,8 +143,8 @@
                             vitae, vestibulum augue.
                         </p>
                     </div>
-                    <div>
-                        <p>READ MORE</p>
+                    <div class="read-more">
+                        <a><p>READ MORE</p></a>
                     </div>
                 </article>
                 <article class="article">
@@ -178,8 +180,8 @@
                             vitae, vestibulum augue.
                         </p>
                     </div>
-                    <div>
-                        <p>READ MORE</p>
+                    <div class="read-more">
+                        <a><p>READ MORE</p></a>
                     </div>
                 </article>
                 <article class="article">
@@ -215,27 +217,22 @@
                             vitae, vestibulum augue.
                         </p>
                     </div>
-                    <div>
-                        <p>READ MORE</p>
+                    <div class="read-more">
+                        <a><p>READ MORE</p></a>
                     </div>
                 </article>
             </div>
 
             <div class="right-post">
-                <div>
+                <form method="POST" action="/search">
                     <input>
-                    <button>Search</button>
-                </div>
-                <div>
-                    <h1>ABOUT ME</h1>
+                    <button class="search-button"><span>Search</span></button>
+                </form>
+                <div class="about-me">
+                    <h2>ABOUT ME</h1>
                     <img id="right-avatar" src="assets/my-avatar.jpg">
+                    <h4>Software Engineer</h4>
                     <p>I make software and stuff</p>
-                </div>
-                <div>
-                    <h1>Caregories</h1>
-                    <a href="#">Software</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Coding</a>
                 </div>
             </div>
         </div>
@@ -243,12 +240,16 @@
     </main>
 
     <footer>
-        <div>
-            <h2>FOLLOW ON YOUTUBE</h2>
-            <a href="youtube.com"></a>
+        <div class="follow-youtube">
+            <a href="https://www.youtube.com/@duyhuynhtan1937" target="_blank"><h4>FOLLOW ON YOUTUBE</h4></a>
+            <img src="assets/youtube-channel.png">
         </div>
         <div>
-            <h2>SUBSCRIBE</h2>
+            <div class="subcribe">
+                <a><h4>SUBSCRIBE</h4></a>
+                
+            </div>
+            
             <p>Subscribe nếu bạn muốn theo dõi các bài viết tiếp theo của mình nhé!</p>
             <input>
             <button>SUBCRIBE</button>
@@ -257,7 +258,6 @@
         <div>
             Website Built by Myself
         </div>
-
 
     </footer>
 

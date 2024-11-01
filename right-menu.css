@@ -1,0 +1,79 @@
+.right-post {
+    margin-left: 3rem;
+    width: 15rem;
+}
+
+form {
+    position: relative;
+}
+
+form input {
+    width: 90%;
+    background-color: transparent;
+    font-family: serif;
+    font-size: 0.875rem;
+    color: #393939;
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.search-button {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #000;
+    transition: .25s all linear;
+}
+
+.search-button:hover {
+    background-color: #D3B062;
+}
+
+
+
+.search-button span {
+    font-size: 12px;
+    font-size: .75rem;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    font-style: normal;
+    color: #fff;
+}
+
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h2 {
+    background-color: #ECECEC;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-weight: normal;
+}
+
+#right-avatar {
+    width: 100%;
+    height: auto;
+}
+
+.about-me h4 {
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.about-me p {
+    text-align: left;
+}

@@ -53,4 +53,17 @@ article {
     text-align: center;
 }
 
+.older-posts {
+    grid-column: 1/-1;
+    background-color: #DDDDDD;
+    margin: 6rem auto;
+    padding: 0rem 2rem;
+    cursor: pointer;
+}
+
+.older-posts a {
+    text-align: center;
+    font-weight: normal;
+}
+
 
